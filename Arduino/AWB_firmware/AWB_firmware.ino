@@ -30,19 +30,18 @@
 #include "SinricPro.h"
 #include "SinricProBlinds.h"
 
-#include "credentials.h" // WIFI_SSID, WIFI_PASS, APP_KEY, APP_SECRET
+// update with your credentials.h
+#include "credentials.h" // WIFI_SSID, WIFI_PASS, APP_KEY, APP_SECRET, BLINDS_ID
 
 // uncomment to enable RIGHT
 // #define LEFT_BLIND
 
 #ifdef LEFT_BLIND
-  #define BLINDS_ID         "64a30040743f9120704647fd"    // Should look like "5dc1564130xxxxxxxxxxxxxx"
   #define PIN_MOTOR_A D1
   #define PIN_MOTOR_B D3
   #define PIN_MOTOR_C D2
   #define PIN_MOTOR_D D4
 #else  // RIGHT_BLIND
-  #define BLINDS_ID         "64c18a9a2ac6a1822a925a30"    // Should look like "5dc1564130xxxxxxxxxxxxxx"
   #define PIN_MOTOR_A D4
   #define PIN_MOTOR_B D2
   #define PIN_MOTOR_C D3

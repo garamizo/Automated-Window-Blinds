@@ -1,0 +1,5 @@
+#define WIFI_SSID "my_wifi_ssid"
+#define WIFI_PASS "my_wifi_pass"
+#define APP_KEY "60d1fe82-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
+#define APP_SECRET "b6986200-xxxx-xxxx-xxxx-xxxxxxxxxxxx-xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxx"
+#define BLINDS_ID "5dc1564130xxxxxxxxxxxxxx"    
